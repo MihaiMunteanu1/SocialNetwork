@@ -1,0 +1,1 @@
+C:\Users\munte\IdeaProjects\LLAB67\build\classes\java\main\module-info.class;C:\Users\munte\IdeaProjects\LLAB67\build\classes\java\main\org\example\llab67\HelloApplication.class;C:\Users\munte\IdeaProjects\LLAB67\build\classes\java\main\org\example\llab67\HelloController.class

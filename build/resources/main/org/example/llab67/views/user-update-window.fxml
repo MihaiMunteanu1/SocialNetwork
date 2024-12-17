@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.llab67.controller.UpdateUserController">
+   <children>
+      <Label layoutX="71.0" layoutY="125.0" prefHeight="25.0" prefWidth="82.0" text="New first name:">
+         <font>
+            <Font name="Centaur" size="14.0" />
+         </font></Label>
+      <Label layoutX="72.0" layoutY="182.0" text="New last name:">
+         <font>
+            <Font name="Centaur" size="14.0" />
+         </font></Label>
+      <Label layoutX="71.0" layoutY="240.0" prefHeight="17.0" prefWidth="58.0" text="New email:">
+         <font>
+            <Font name="Centaur" size="14.0" />
+         </font></Label>
+      <Label layoutX="71.0" layoutY="294.0" prefHeight="25.0" prefWidth="78.0" text="New password:">
+         <font>
+            <Font name="Centaur" size="14.0" />
+         </font></Label>
+      <TextField fx:id="textFieldFirstName" layoutX="71.0" layoutY="150.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="textFieldLastName" layoutX="69.0" layoutY="200.0" />
+      <TextField fx:id="textFieldEmail" layoutX="71.0" layoutY="261.0" prefHeight="18.0" prefWidth="149.0" />
+      <TextField fx:id="textFieldPassword" layoutX="71.0" layoutY="319.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button layoutX="107.0" layoutY="389.0" mnemonicParsing="false" onAction="#handleUpdate" prefHeight="36.0" prefWidth="72.0" text="Update">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font></Button>
+      <Label layoutX="75.0" layoutY="20.0" prefHeight="36.0" prefWidth="162.0" text="Update Profile">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="54.0" prefHeight="72.0" prefWidth="312.0" text="Update your information to keep your account&#10; up to date. Fill in the fields below and click&#10; 'Update' to modify your details.&#10;">
+         <font>
+            <Font name="Centaur" size="15.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="70.0" layoutY="355.0" prefHeight="17.0" prefWidth="149.0" progress="0.0" />
+      <Label fx:id="emailValidationLabel" layoutX="229.0" layoutY="243.0" prefHeight="54.0" prefWidth="79.0" text="Invalid" textFill="RED" />
+      <Label fx:id="passwordStrengthLabel" layoutX="229.0" layoutY="322.0" prefHeight="18.0" prefWidth="58.0" text="Not strong" textFill="RED" />
+   </children>
+</AnchorPane>

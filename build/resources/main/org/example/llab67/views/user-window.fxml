@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.llab67.controller.UserController">
+   <children>
+      <TableView fx:id="tableViewFriendsRequests" editable="true" layoutX="46.0" layoutY="55.0" prefHeight="147.0" prefWidth="383.0">
+        <columns>
+          <TableColumn fx:id="tableColumnFirstName" prefWidth="75.0" text="Nume" />
+          <TableColumn fx:id="tableColumnLastName" prefWidth="75.0" text="Prenume" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="103.11116027832031" text="Email" />
+            <TableColumn fx:id="tableColumnSendDate" prefWidth="128.88885498046875" text="Send date" />
+        </columns>
+      </TableView>
+      <Label layoutX="46.0" layoutY="30.0" text="Friend Requests">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="119.0" prefHeight="221.0" prefWidth="49.0" text="Friends">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableViewFriends" editable="true" layoutX="46.0" layoutY="243.0" prefHeight="168.0" prefWidth="383.0">
+        <columns>
+          <TableColumn fx:id="tableColumnFirstNameFriend" prefWidth="75.0" text="Nume" />
+          <TableColumn fx:id="tableColumnLastNameFriend" prefWidth="75.0" text="Prenume" />
+            <TableColumn fx:id="tableColumnEmailFriend" prefWidth="101.33332824707031" text="Email" />
+            <TableColumn fx:id="tableColumnFriendsFrom" prefWidth="130.66668701171875" text="Friends from" />
+        </columns>
+      </TableView>
+      <Button layoutX="463.0" layoutY="63.0" mnemonicParsing="false" onAction="#handleAcceptFriendRequest" prefHeight="44.0" prefWidth="75.0" text="Accept">
+            <tooltip>
+                <Tooltip text="Accept friend request" />
+            </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+        </Button>
+      <Button layoutX="463.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleDeclineFriendRequest" prefHeight="44.0" prefWidth="75.0" text="Decline">
+            <tooltip>
+                <Tooltip text="Decline friend request" />
+            </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+        </Button>
+      <Button layoutX="463.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleDeleteFriend" prefHeight="44.0" prefWidth="75.0" text="Remove">
+            <tooltip>
+                <Tooltip text="Remove friend" />
+            </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+        </Button>
+      <Button layoutX="46.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleBackToLogin" prefHeight="34.0" prefWidth="75.0" text="Log Out">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font></Button>
+      <Button layoutX="391.0" layoutY="450.0" mnemonicParsing="false" onAction="#handleUpdateUser" prefHeight="34.0" prefWidth="112.0" text="Update Profile">
+                <tooltip>
+                    <Tooltip text="Update your profile" />
+                    </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+            </Button>
+      <Button layoutX="517.0" layoutY="448.0" mnemonicParsing="false" onAction="#handleDeleteUser" prefHeight="34.0" prefWidth="112.0" text="Delete Profile">
+              <tooltip>
+                  <Tooltip text="Delete your profile" />
+                </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+        </Button>
+      <Button layoutX="264.0" layoutY="449.0" mnemonicParsing="false" onAction="#handleAddFriend" prefHeight="34.0" prefWidth="112.0" text="Add Friend">
+                <tooltip>
+                    <Tooltip text="Send a friend request to a new person" />
+                </tooltip>
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+            </Button>
+      <Button ellipsisString="" layoutX="573.0" layoutY="369.0" mnemonicParsing="false" onAction="#handleChat" prefHeight="44.0" prefWidth="51.0">
+          <tooltip>
+              <Tooltip text="Chat with friends" />
+            </tooltip>
+         <graphic>
+             <ImageView fitHeight="32.0" fitWidth="38.0" onMouseClicked="#handleChat">
+                 <Image url="@../images/chat-button.png">
+              </Image>
+             </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="buttonNextPage" onAction="#handleNextPage" layoutX="237.0" layoutY="413.0" mnemonicParsing="false" text="-&gt;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPreviousPage" onAction="#handlePreviousPage" layoutX="208.0" layoutY="413.0" mnemonicParsing="false" text="&lt;-">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelCurrentPage" layoutX="52.0" layoutY="415.0" text="Curent page: 1">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
