@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca26d401-8315-4017-ba90-366105b43ea2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LLAB67" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oqF7Kidar8vp0qdRB9KqovMYTQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.LLAB67 [:org.example.llab67.HelloApplication.main()].executor": "Run",
+    "Gradle.LLAB67 [:org.example.llab67.Main.main()].executor": "Run",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/munte/IdeaProjects/Sem2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.445977",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\java\org\example\llab67\repository\paging" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\java\org\example\llab67\utils\paging" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\resources\org\example\llab67\views" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\resources\org\example\llab67\images" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\java\org\example\llab67" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\resources\org\example\llab67\images" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\libs" />
+      <recent name="C:\Users\munte\IdeaProjects\LLAB67\src\main\resources\org\example\llab67\views" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.llab67.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.llab67" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.llab67.utils.events" />
+      <recent name="domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.llab67.Main">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.llab67.HelloApplication" />
+      <module name="LLAB67.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.llab67.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-23" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.llab67.HelloApplication" />
+      <module name="LLAB67.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.llab67.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.llab67.Main" />
+      <module name="LLAB67.main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\munte\Downloads\openjfx-23.0.1_windows-x64_bin-sdk (1)\javafx-sdk-23.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.llab67.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.org.example.llab67.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.example.llab67.Main" />
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca26d401-8315-4017-ba90-366105b43ea2" name="Changes" comment="" />
+      <created>1731589032783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731589032783</updated>
+      <workItem from="1731589034190" duration="7304000" />
+      <workItem from="1731601226319" duration="7357000" />
+      <workItem from="1731665220658" duration="6510000" />
+      <workItem from="1731680684054" duration="245000" />
+      <workItem from="1731681579138" duration="2235000" />
+      <workItem from="1731688429934" duration="6581000" />
+      <workItem from="1731758464196" duration="5860000" />
+      <workItem from="1731771546237" duration="637000" />
+      <workItem from="1731773655671" duration="4868000" />
+      <workItem from="1731790315674" duration="3610000" />
+      <workItem from="1731949727917" duration="780000" />
+      <workItem from="1731961796052" duration="2738000" />
+      <workItem from="1731964844469" duration="4395000" />
+      <workItem from="1732038256337" duration="10829000" />
+      <workItem from="1732102650782" duration="1943000" />
+      <workItem from="1732111575753" duration="2545000" />
+      <workItem from="1732124239812" duration="3609000" />
+      <workItem from="1732129680427" duration="18000" />
+      <workItem from="1732129716257" duration="2738000" />
+      <workItem from="1732133963354" duration="390000" />
+      <workItem from="1732185547564" duration="1552000" />
+      <workItem from="1732187315317" duration="8126000" />
+      <workItem from="1732223208413" duration="190000" />
+      <workItem from="1732270105056" duration="3891000" />
+      <workItem from="1732274047030" duration="670000" />
+      <workItem from="1732380380604" duration="21000" />
+      <workItem from="1732457910146" duration="326000" />
+      <workItem from="1732532992843" duration="1064000" />
+      <workItem from="1732534087206" duration="5950000" />
+      <workItem from="1732629354943" duration="2889000" />
+      <workItem from="1732636954175" duration="2349000" />
+      <workItem from="1732790120979" duration="337000" />
+      <workItem from="1732797038971" duration="2080000" />
+      <workItem from="1732879599607" duration="3510000" />
+      <workItem from="1733397842763" duration="7954000" />
+      <workItem from="1733419030221" duration="68000" />
+      <workItem from="1733428555964" duration="105000" />
+      <workItem from="1733481059371" duration="254000" />
+      <workItem from="1733496394821" duration="3000" />
+      <workItem from="1733496412420" duration="269000" />
+      <workItem from="1734368563625" duration="48000" />
+      <workItem from="1734368756998" duration="14000" />
+      <workItem from="1734470845892" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
