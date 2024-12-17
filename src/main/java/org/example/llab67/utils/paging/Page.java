@@ -1,0 +1,19 @@
+package org.example.llab67.utils.paging;
+
+public class Page<E> {
+    private Iterable<E> elementsOnPage;
+    private int totalElementCount;
+
+    public Page(Iterable<E> elementsOnPage, int totalElementCount) {
+        this.elementsOnPage = elementsOnPage;
+        this.totalElementCount = totalElementCount;
+    }
+
+    public Iterable<E> getElementsOnPage() {
+        return elementsOnPage;
+    }
+
+    public int getTotalElementCount() {
+        return totalElementCount;
+    }
+}

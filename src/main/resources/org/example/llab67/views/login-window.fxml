@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="425.0" prefWidth="692.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.llab67.controller.LoginController">
+   <children>
+      <AnchorPane layoutX="23.0" prefHeight="425.0" prefWidth="737.0">
+         <children>
+            <ImageView fitHeight="293.0" fitWidth="985.0" layoutX="-310.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../images/social-network-abstract.jpg" />
+                </image>
+            </ImageView>
+            <ImageView fitHeight="211.0" fitWidth="568.0" layoutX="216.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                      <Image url="@../images/social-network-abstract.jpg" />
+                  </image>
+              </ImageView>
+            <Button layoutX="14.0" layoutY="331.0" mnemonicParsing="false" onAction="#handleSignup" text="Sign Up">
+               <font>
+                  <Font name="Centaur" size="15.0" />
+               </font></Button>
+            <Label layoutX="15.0" layoutY="107.0" style="-fx-background-color: white;" text="Email">
+               <font>
+                  <Font name="Centaur" size="16.0" />
+               </font></Label>
+            <Label layoutX="15.0" layoutY="178.0" style="-fx-background-color: white;" text="Password">
+               <font>
+                  <Font name="Centaur" size="16.0" />
+               </font></Label>
+            <TextField fx:id="textFieldEmail" layoutX="15.0" layoutY="135.0" promptText="Your email">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+            <PasswordField fx:id="textFieldPassword" layoutX="15.0" layoutY="201.0" promptText="Your password">
+               <font>
+                  <Font size="13.0" />
+               </font></PasswordField>
+            <TextField fx:id="textFieldPasswordVisible" layoutX="15.0" layoutY="201.0" promptText="Your password">
+               <font>
+                  <Font size="13.0" />
+               </font></TextField>
+            <ProgressBar fx:id="progressBar" layoutX="89.0" layoutY="244.0" prefHeight="20.0" prefWidth="171.0" progress="0.0" visible="false" />
+            <Label layoutX="15.0" layoutY="304.0" text="Create an account:" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Centaur" size="16.0" />
+               </font></Label>
+            <ToggleButton fx:id="showPasswordButton" layoutX="187.0" layoutY="201.0" mnemonicParsing="false" onAction="#handleShowPasswordButton" prefHeight="25.0" prefWidth="111.0" text="Show password">
+               <font>
+                  <Font name="Centaur" size="15.0" />
+               </font></ToggleButton>
+            <Button layoutX="14.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="25.0" prefWidth="58.0" text="Login">
+               <font>
+                  <Font name="Centaur" size="15.0" />
+               </font></Button>
+            <Button layoutX="290.0" layoutY="75.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="111.0" style="-fx-background-color: white;" />
+         </children>
+      </AnchorPane>
+      <Text disable="true" layoutX="358.0" layoutY="226.0" nodeOrientation="LEFT_TO_RIGHT" stroke="#ce2e2e" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="0.0" text="Social Network">
+         <font>
+            <Font name="Dubai Bold" size="54.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

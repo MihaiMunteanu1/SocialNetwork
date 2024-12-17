@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="406.0" prefWidth="338.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.llab67.controller.SignUpController">
+   <children>
+      <AnchorPane layoutX="89.0" layoutY="-7.0" prefHeight="413.0" prefWidth="276.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="20.0" layoutY="73.0" text="First Name">
+               <font>
+                  <Font name="Centaur" size="15.0" />
+               </font></Label>
+            <Label layoutX="20.0" layoutY="135.0" text="Last Name">
+               <font>
+                  <Font name="Centaur" size="14.0" />
+               </font></Label>
+            <Label layoutX="20.0" layoutY="207.0" text="Email ( @yahoo.com / @gmail.com )">
+               <font>
+                  <Font name="Centaur" size="14.0" />
+               </font></Label>
+            <Label layoutX="20.0" layoutY="281.0" text="Password">
+               <font>
+                  <Font name="Centaur" size="14.0" />
+               </font></Label>
+            <TextField fx:id="textFieldFirstName" layoutX="14.0" layoutY="100.0" />
+            <TextField fx:id="textFieldLastName" layoutX="14.0" layoutY="168.0" />
+            <TextField fx:id="textFieldEmail" layoutX="14.0" layoutY="242.0" />
+            <TextField fx:id="textFieldPassword" layoutX="14.0" layoutY="305.0" />
+            <Button layoutX="50.0" layoutY="374.0" onAction="#handleSignUp" prefHeight="27.0" prefWidth="73.0" text="Sign Up">
+               <font>
+                  <Font name="Centaur" size="14.0" />
+               </font></Button>
+            <Label layoutX="-10.0" layoutY="26.0" prefHeight="36.0" prefWidth="268.0" text="Create an account">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailValidationLabel" layoutX="169.0" layoutY="246.0" textFill="red" />
+            <ProgressBar fx:id="progressBar" layoutX="16.0" layoutY="340.0" prefHeight="18.0" prefWidth="149.0" progress="0.0" />
+            <Label fx:id="passwordStrengthLabel" layoutX="169.0" layoutY="341.0" text="Not strong" textFill="red" visible="false" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
