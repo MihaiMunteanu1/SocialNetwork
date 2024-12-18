@@ -7,7 +7,7 @@ Project with GUI
 The main interface of the SocialNetwork application, displaying the login page.
 <img src="https://github.com/user-attachments/assets/7608951c-c447-46d4-a593-47fdc2756c32" alt="Screenshot 2024-12-18 123448" width="900px">
 
-The sign-up page, validating the email and the password.
+The sign-up page, validating the email and the password. <br>
 <img src="https://github.com/user-attachments/assets/bafb07ed-b1ed-4951-a10c-508116bb418c" alt="Screenshot 2024-12-18 123530" width="600px">
 
  The homepage after logging in, showing the activity feed.
