@@ -13,9 +13,10 @@ The sign-up page, validating the email and the password.
  The homepage after logging in, showing the activity feed.
 ![Screenshot 2024-12-18 123638](https://github.com/user-attachments/assets/c99bbabb-4726-41d4-987e-8fd9212853bc)
 
-The messaging window, where users can communicate via private messages.
+The searching for a friend page, offering the posibility to look for a friend based on their first name or last name.
 ![Screenshot 2024-12-18 123658](https://github.com/user-attachments/assets/79004587-fa32-46f7-b271-97b5cbdcc84a)
 
+The messaging window, where users can communicate via private messages.
 ![Screenshot 2024-12-18 123729](https://github.com/user-attachments/assets/b5a748d1-cde7-483d-b4e2-44e093fd38bc)
 
 Account settings, offering customization and security options.
